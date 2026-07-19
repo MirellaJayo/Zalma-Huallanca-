@@ -1,0 +1,15 @@
+---
+title: "COEFICIENTE DE CORRELACIÓN DE PEARSON"
+author: "HUALLANCA JAYO, ZALMA MIRELLA"
+format: html
+editor: visual
+---
+
+```{r}
+x<-c(2,4,6,8,10)
+y<-c(65,70,75,82,80)
+```
+
+```{r}
+cor(x,y)
+```
