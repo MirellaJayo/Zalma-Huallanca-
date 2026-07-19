@@ -1,0 +1,24 @@
+---
+title: "RECTA DE REGRESIÓN LINEAL"
+author: "HUALLANCA JAYO, ZALMA MIRELLA"
+format: html
+editor: visual
+---
+
+```{r}
+x<-c(2,4,6,8,10)
+y<-c(65,70,75,82,80)
+```
+
+You can add options to executable code like this
+
+```{r}
+modelo<-lm(y~x)
+coef(modelo)
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
+
+```{r}
+predict(modelo,data.frame(x=12))
+```
