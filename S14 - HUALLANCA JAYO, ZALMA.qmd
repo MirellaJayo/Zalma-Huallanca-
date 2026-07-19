@@ -1,0 +1,24 @@
+---
+title: "DATOS PERDIDOS - SEMANA 14"
+author: "HUALLANCA JAYO, ZALMA"
+format: html
+editor: visual
+---
+
+```{r}
+datos<-read.csv("pacientes.csv")
+```
+
+```{r}
+datos
+```
+
+```{r}
+summary(datos)
+
+```
+
+```{r}
+colSums(is.na(datos))
+
+```
