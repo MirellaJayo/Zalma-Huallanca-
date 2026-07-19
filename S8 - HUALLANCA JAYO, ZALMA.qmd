@@ -1,0 +1,22 @@
+---
+title: "GRÁFICA DE LA RECTA DE REGRESIÓN LINEAL"
+author: "HUALLANCA JAYO, ZALMA MIRELLA"
+format: html
+editor: visual
+---
+
+```{r}
+x<-c(2,4,6,8,10)
+y<-c(65,70,75,82,80)
+```
+
+```{r}
+modelo<-lm(y~x)
+coef(modelo)
+```
+
+```{r}
+plot(x,y, main = "Horas de Capacitacion vs Calidad de atencion", xlab = "Horas de Capacitacion" ,
+     ylab = "Puntaje de Calidad",pch=19)
+abline(modelo,lwd=2)
+```
